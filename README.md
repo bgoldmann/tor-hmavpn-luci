@@ -3,7 +3,7 @@ Collection of OpenWRT packages for Tor and HMA
 
 To use these packages you need to add this feed to your openwrt feeds list
 dy adding following line in openwrt_source_tree/feeds.conf.default file:
-src-git tor https://github.com/unomano/tor.git
+src-git tor-hmavpn-luci https://github.com/bgoldmann/tor-hmavpn-luci.git
 
 Update/download all feeds:
 ./scripts/feeds update
